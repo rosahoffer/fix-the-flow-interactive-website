@@ -1,0 +1,569 @@
+/* *{
+  max-width: 100%;
+  margin: 0;
+} */
+
+:root {
+--primary-color-green: #4E7141;
+--secundary-color-orange: #F26F21;
+--secundary-color-bleu: #333467;
+}
+
+
+body {
+    max-width: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--primary-color-green);
+  padding: 3em 10em 3em 10em;
+}
+
+.rounded{
+  border-top: 5px solid var(--primary-color-green);
+}
+
+h3{
+    color: var(--secundary-color-orange);
+    font-size: 22pt;
+    font-style: italic;
+    font-weight: 300;
+}
+
+
+/* Hoe werkt het?  */
+
+.het-ruilproces-info{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.het-ruilproces-info-tekst{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin: 0px 300px 100px 300px;
+}
+
+.het-ruilproces-info-tekst > h1{
+    font-weight: 600;
+    font-size: 32pt;
+    color: var(--secundary-color-bleu);
+}
+
+.het-ruilproces-info > img{
+    border-radius: 25px;
+}
+
+.open-button{
+  margin-top: 50px;
+  background-color: var(--secundary-color-orange);
+  color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  padding: 1em;
+  font-size: 16px;
+  width: 20em;
+  cursor: pointer;
+  align-items: center;
+}
+
+.open-button:hover{
+  opacity: 0.7;
+}
+
+p{
+    color: #727272;
+    font-size: 18px;
+    margin: 0;
+    line-height: 20pt;
+}
+
+/* FORM STEKJE AANMELDEN */
+
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  margin-top: 50px;
+  background-color: var(--secundary-color-orange);
+  color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  padding: 1em;
+  font-size: 16px;
+  width: 20em;
+  cursor: pointer;
+  align-items: center;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  position: absolute;
+  border: 3px solid #f1f1f1;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 50px;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  margin-top: 50px;
+  background-color: var(--secundary-color-orange);
+  color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  padding: 1em;
+  font-size: 16px;
+  width: 20em;
+  cursor: pointer;
+  align-items: center;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+
+
+/* DONEREN CONTAINER */
+
+.doneren{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: var(--primary-color-green);
+  width: 100%;
+  padding-bottom: 100px;
+}
+
+.doneren > div{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: 20px;
+  text-align: center;
+  background-color: white;
+  border-radius: 20px;
+  margin-top: 100px;
+  padding: 20px 20px 40px 20px;
+}
+
+/* STEKJES OPMAAK */
+
+.stekjes-container-intro{
+    padding-top: 100px;
+    text-align: center;
+    background-color: var(--primary-color-green);
+    color: white;
+}
+
+.stekjes-container-intro > h1{
+    color: white;
+    font-weight: 600;
+    font-size: 32pt;
+}
+
+.stekjes-container-intro > p{
+    color: white;
+}
+
+.stekjes-container1{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: var(--primary-color-green);
+        width: 100%;
+}
+
+.stekjes-container1 > div{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        margin: 20px;
+        text-align: center;
+        background-color: white;
+        border-radius: 20px;
+        margin-top: 100px;
+      }
+    
+.stekjes-container1 > div > img {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+      }
+      
+.stekjes-container1 > div button {
+        border: none;
+        margin-top: 30px;
+        outline: 0;
+        padding: 12px;
+        color: white;
+        background-color: var(--secundary-color-orange);
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 16px;
+        margin-bottom: 0px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+      }
+
+.stekjes-container1 >  a{
+        text-decoration: none;
+        color: white;
+}
+      
+.stekjes-container1 > div button:hover {
+        opacity: 0.7;
+      }
+
+.stekjes-container2{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: var(--primary-color-green);
+        width: 100%;
+    }
+
+.stekjes-container2 > div{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        margin: 20px;
+        text-align: center;
+        background-color: white;
+        border-radius: 20px;
+        margin-bottom: 200px;
+      }
+    
+.stekjes-container2 > div > img {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+      }
+      
+.stekjes-container2 > div button {
+        border: none;
+        margin-top: 30px;
+        outline: 0;
+        padding: 12px;
+        color: white;
+        background-color: var(--secundary-color-orange);
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 16px;
+        margin-bottom: 0px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+      }
+      
+.stekjes-container2 > div button:hover {
+        opacity: 0.7;
+      }
+
+
+/* OVER BUURTCAMPUS */
+
+.buurtcampus-info-container {
+  display: block;
+  justify-content: center;
+  margin: 150px 300px 150px 300px;
+  text-align: center;
+  align-items: center;
+}
+
+.buurtcampus-info-container-tekst{
+  margin-bottom: 100px;
+}
+
+.buurtcampus-info-container-tekst > h1{
+font-weight: 600;
+font-size: 32pt;
+color: var(--secundary-color-bleu);
+}
+
+.buurtcampus-info-container > img{
+margin-top: -50px;
+margin-bottom: -50px;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: var(--secundary-color-bleu);
+    padding: 100px;
+}
+
+/* RESPOSIVE MENU */
+  
+  nav {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav > a{
+    margin: 0 1rem;
+    overflow: hidden;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    width: 8em;
+    text-align: center;
+  }
+
+  nav > a:hover{
+    color: var(--secundary-color-orange);
+  }
+  
+  .menu-button-container {
+    display: none;
+    height: 100%;
+    width: 30px;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #menu-toggle {
+    display: none;
+  }
+  
+  .menu-button,
+  .menu-button::before,
+  .menu-button::after {
+    display: block;
+    background-color: white;
+    position: absolute;
+    height: 4px;
+    width: 30px;
+    transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    border-radius: 2px;
+  }
+  
+  .menu-button::before {
+    content: '';
+    margin-top: -8px;
+  }
+  
+  .menu-button::after {
+    content: '';
+    margin-top: 8px;
+  }
+  
+  #menu-toggle:checked + .menu-button-container .menu-button::before {
+    margin-top: 0px;
+    transform: rotate(405deg);
+  }
+  
+  #menu-toggle:checked + .menu-button-container .menu-button {
+    background: rgba(117, 110, 110, 0);
+  }
+  
+  #menu-toggle:checked + .menu-button-container .menu-button::after {
+    margin-top: 0px;
+    transform: rotate(-405deg);
+  }
+  
+  @media (max-width: 1200px) {
+    .menu-button-container {
+      display: flex;
+    }
+    nav {
+      position: absolute;
+      top: 0;
+      margin-top: 120px;
+      left: 0;
+      flex-direction: column;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+    }
+    #menu-toggle ~ nav a {
+      height: 0;
+      margin: 0;
+      padding: 0;
+      border: 0;
+      transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+    #menu-toggle:checked ~ nav a {
+      height: 2.5em;
+      padding: 0.5em;
+      padding-top: 2em;
+      transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+    nav > a {
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 0.5em 0;
+      width: 100%;
+      color: #ffffff;
+      background-color: #6c8b5f;
+    }
+    nav > a:not(:last-child) {
+      border-bottom: 1px solid var(--secundary-color-bleu);
+    }
+
+    nav > a:hover{
+      color: #ffffff;
+      background-color: #88a57b;
+    }
+
+    .de-stekjesbieb{
+     display: block;
+     justify-content: center;
+
+    }
+
+    .het-ruilproces-info{
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+      max-width: 100%;
+      text-align: center;
+      align-items: center;
+      padding: 100px 0px 0px 0px;
+    }
+
+    .het-ruilproces-info-tekst > h1{
+      margin: 0;
+      padding-bottom: 30px;
+    }
+
+    .het-ruilproces-info-tekst > p{
+      margin: 0;
+      padding-bottom: 50px;
+    }
+
+    .stekjes-container1{
+      padding-top: 100px;
+    }
+
+    .stekjes-container1 > div{
+      margin-top: 20px;
+    }
+
+    .stekjes-container2 > div{
+    margin-bottom: 20px;
+  }
+
+  .stekjes-container2{
+    padding-bottom: 100px;
+  }
+
+  .buurtcampus-info-container{
+    margin: 0;
+    max-width: 100%;
+    text-align: center;
+    align-items: center;
+    padding: 100px 50px 150px 50px;
+  }
+
+  .buurtcampus-info-container-tekst{
+    margin-bottom: 100px;
+  }
+}
+
+/* RESERVEREN */
+
+.bedankt-tekst{
+  padding-top: 70px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 26px;
+}
+
+.bedankt-tekst-2{
+  font-weight: 100;
+  padding-bottom: 100px;
+}
+
+.intro-tekst{
+  padding-top: 70px;
+  text-align: center;
+  font-size: 26px;
+}
+
+form { max-width:500px; margin:50px auto; 
+  padding-bottom: 50px;
+}
+
+.feedback-input {
+  color:#727272;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid var(--secundary-color-bleu);
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid var(--secundary-color-bleu); }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  width: 100%;
+  background: var(--secundary-color-bleu);
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background: var(--secundary-color-bleu); }

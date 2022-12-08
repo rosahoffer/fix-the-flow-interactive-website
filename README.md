@@ -1,25 +1,40 @@
-> _Fork_ deze leertaak en ga aan de slag. 
-Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. 
-De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
+# Buurtcampus-Oost
 
-# Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+### De user story's:
 
-## User Story
-<!-- Schrijf de user story waar je aan hebt gewerkt  -->
+***
 
-## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+* _Als buurtbewoner van Amsterdam Oost wil ik kunnen zien welke stekjes momenteel in de stekjeskast zitten, zodat ik kan overwegen een stekje om te ruilen._
 
-## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? -->
+* _Als buurtbewoner van Amsterdam Oost wil ik een stekje kunnen toevoegen met behulp van een formulier_
+
+Check hier mijn oplossing! https://rosahoffer.github.io/look-and-feel-corporate-identity/
+
+![device-plantswap-amsterdam](https://user-images.githubusercontent.com/112861375/205284895-eb6a31b1-81b7-4aa1-a786-b1514c8eaf4d.png)
 
 
+### Beschrijving
 
-## Licentie
+***
 
-![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
+De Buurtcampus is een dynamische, laagdrempelige plek waar iedereen zich welkom en uitgenodigd voelt om kennis op te doen, te ontwikkelen en te delen. Met als doel: samen de buurt duurzamer, gezonder en inclusiever maken.
 
-This work is licensed under [GNU GPLv3](./LICENSE).
+Bij Buurtcampus wordt op korte termijn een stekjesbieb neergezet. Buurtbewoners kunnen stekjes halen uit de stekjesbieb, maar ook stekjes brengen naar de stekjesbieb. De stekjesbieb dient als middel om buurtbewoners met elkaar te verbinden. Daarnaast leren bewoners hoe ze op een duurzame manier met planten kunnen omgaan en draagt het bij aan een gezondere leefomgeving in huis.
+
+Buurtcampus-Oost wil met de website graag het volgende bereiken:
+
+* De campus ook voor jongeren aantrekkelijk maken.
+* Buurtcampus groener maken.
+* Buurtbewoners verbinden.
+* Ruilprincipe verbeteren (zorgen dat mensen niet alleen pakken).
+* Uiteindelijk is het een cadeau aan de buurt.
+
+Ook wilt Buurtcampus-Oost graag de huisstijl aanhouden. Daarom zijn bepaalde kleuren, lettertypen en fonts gebruikt.
+
+### Kenmerken
+
+***
+
+De pagina is gemaakt met HTML en CSS.
+
+

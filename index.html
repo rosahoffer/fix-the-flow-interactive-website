@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="java.js"></script>
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="assets/plantswap-logo-white.png" alt="Logo PlantSwap" width="20%">
+        </div>
+        <input id="menu-toggle" type="checkbox" />
+    <label class='menu-button-container' for="menu-toggle">
+        <div class='menu-button'></div>
+    </label>
+        <nav>
+          <a href="#home">Home</a>
+          <a href="#onze-stekjes">Onze stekjes</a>
+          <a href="#over-ons">Over ons</a>
+          <a href="#doneren">Doneren</a>
+        </nav>
+    </header>
+
+    <hr class="rounded">
+    
+    <main>
+        <section id= "home" class="het-ruilproces-info">
+            <div class="het-ruilproces-info-tekst">
+                <h1>PlantSwap Amsterdam</h1>
+                <p>Heb jij een of meerdere plantenstekjes over en zou je die graag willen ruilen voor een nieuw plantje? Meld je stekje hier aan en ruil ‘m via de app. Schrijf de Latijnse naam van je plant en eventuele verzorgingstips op een labeltje en neem ‘m mee naar de OBA Linnaeusstraat in Amsterdam.</p>
+                <button class="open-button" onclick="openForm()">Stekje aanmelden</button>
+            </div>
+            
+            <div class="form-popup" id="stekje-aanmelden">
+                <form action="/action_page.php" class="form-container">
+
+                  <label for="text"><b>Naam</b></label>
+                  <input type="text" placeholder="Uw naam" name="name" required>  
+        
+                  <label for="email"><b>Email</b></label>
+                  <input type="text" placeholder="Uw e-mailadres" name="email" required>
+
+                  <label for="email"><b>Upload je stekje</b></label>
+                  <input type="file" name="file" required>
+              
+                  <button type="submit" class="btn">Verzenden</button>
+                  <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                </form>
+            </div>
+
+                <img src="assets/plant-parents-holding-potted-plants-background.png" width="100%" alt="Intro Stekjesbieb">
+        </section>
+
+        <section id= "onze-stekjes" class="stekjes-container-intro">
+            <h1>Onze stekjes</h1>
+            <p>Bekijk hieronder ons assortiment!</p>
+        </section>
+
+        <div class="stekjes-container1">
+
+            <div class="stek01">
+                <img src="assets/voorbeeld-stek.png" style="width:100%" alt="Stek 1">
+                <h1>Stek 1</h1>
+                <p>Informatie over de stek</p>
+                <button onclick= "window.location.href='https://rosahoffer.github.io/the-client-case/reserveren'">Deze wil ik ruilen!</button>
+            </div>
+            
+            <div class="stek02">
+                <img src="assets/voorbeeld-stek.png" style="width:100%" alt="Stek 2">
+                <h1>Stek 2</h1>
+                <p>Informatie over de stek</p>
+                <button onclick= "window.location.href='https://rosahoffer.github.io/the-client-case/reserveren'">Deze wil ik ruilen!</button>
+            </div>
+
+            <div class="stek03">
+                <img src="assets/voorbeeld-stek.png" style="width:100%" alt="Stek 3">
+                <h1>Stek 3</h1>
+                <p>Informatie over de stek</p>
+                <button onclick= "window.location.href='https://rosahoffer.github.io/the-client-case/reserveren'">Deze wil ik ruilen!</button>
+            </div>
+
+            <div class="stek04">
+                <img src="assets/voorbeeld-stek.png" style="width:100%" alt="Stek 4">
+                <h1>Stek 4</h1>
+                <p>Informatie over de stek</p>
+                <button onclick= "window.location.href='https://rosahoffer.github.io/the-client-case/reserveren'">Deze wil ik ruilen!</button>
+            </div>
+        </div>
+
+        <div class="stekjes-container2">
+            
+            <div class="stek05">
+                <img src="assets/voorbeeld-stek.png" style="width:100%" alt="Stek 5">
+                <h1>Stek 5</h1>
+                <p>Informatie over de stek</p>
+                <button onclick= "window.location.href='https://rosahoffer.github.io/the-client-case/reserveren'">Deze wil ik ruilen!</button>
+              </div>
+
+              <div class="stek06">
+                <img src="assets/voorbeeld-stek.png" style="width:100%" alt="Stek 6">
+                <h1>Stek 6</h1>
+                <p>Informatie over de stek</p>
+                <button onclick= "window.location.href='https://rosahoffer.github.io/the-client-case/reserveren'">Deze wil ik ruilen!</button>
+              </div>
+
+              <div class="stek07">
+                <img src="assets/voorbeeld-stek.png" style="width:100%" alt="Stek 7">
+                <h1>Stek 7</h1>
+                <p>Informatie over de stek</p>
+                <button onclick= "window.location.href='https://rosahoffer.github.io/the-client-case/reserveren'">Deze wil ik ruilen!</button>
+              </div>
+
+              <div class="stek08">
+                <img src="assets/voorbeeld-stek.png" style="width:100%" alt="Stek 8">
+                <h1>Stek 8</h1>
+                <p>Informatie over de stek</p>
+                <button onclick= "window.location.href='https://rosahoffer.github.io/the-client-case/reserveren'">Deze wil ik ruilen!</button>
+              </div>
+        </div>  
+
+        <section id="over-ons" class="buurtcampus-info-container">
+            <div class="buurtcampus-info-container-tekst">
+                <h1>Over Buurtcampus Oost</h1>
+                <p>De Buurtcampus Oost heeft als doel Amsterdam-Oost duurzamer, inclusiever en gezonder te maken. Plant Swap Amsterdam zorgt ervoor dat plantenliefhebbers elkaar ontmoeten in de bibliotheek. Daarnaast hebben planten in huis een positief effect op je lichamelijke en geestelijke gezondheid. Veel mensen weten niet goed hoe ze voor planten moeten zorgen en kopen nieuwe als ze dood gaan. In het kader van duurzaamheid, gezondheid en meer sociale connectie, is PlantSwap Amsterdam een plek van sociale ontmoeting, waar mensen samen leren over planten. </p>
+            </div>
+            <img src="assets/bc_netwerk.png" width=60% alt="Intro Buurtcampus">
+        </section>
+
+        <section id="doneren" class="doneren">
+            <div class="doneren-info">
+                <img src="assets/doneren.png" style="width:80%" alt="Doneren">
+                <h2>Doneren </h2>
+                <p>Heb jij (net als wij) teveel planten in huis? Wij zijn super blij als je stekjes komt doneren. Je kunt ze aanmelden via de app en daarna neerzetten in de PlantSwap kast in de bieb.</p>
+            </div>
+            <div class="wanneer-info">
+                <img src="assets/open.png" style="width:80%" alt="Openingsdatum">
+                <h2>Openingsdatum</h2>
+                <p>De PlantSwap kast wordt officieel geopend met een PlantSwap Party in maart 2023.</p>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <div>
+            <img src="assets/plantswap-logo-white.png" alt="Logo Buurtcampus" width="10%">
+        </div>
+    </footer>
+</body>
+
+</html>
