@@ -116,7 +116,7 @@ p{
 
 /* Add styles to the form container */
 .form-container {
-  max-width: 300px;
+  max-width: 400px;
   padding: 50px;
 }
 
@@ -139,7 +139,7 @@ p{
 /* Set a style for the submit/login button */
 .form-container .btn {
   margin-top: 50px;
-  background-color: var(--secundary-color-orange);
+  background-color: var(--primary-color-green);
   color: #ffffff;
   border: none;
   border-radius: 20px;
@@ -148,17 +148,19 @@ p{
   width: 20em;
   cursor: pointer;
   align-items: center;
+  font-style: normal;
+  font-weight: 400;
 }
 
 /* Add a red background color to the cancel button */
 .form-container .cancel {
-  background-color: red;
+  background-color: var(--secundary-color-orange);
 }
 
-/* Add some hover effects to buttons */
-.form-container .btn:hover, .open-button:hover {
-  opacity: 1;
+.form-container :hover.cancel {
+  background-color: var(--secundary-color-bleu);
 }
+
 
 
 
