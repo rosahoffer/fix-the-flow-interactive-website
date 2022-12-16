@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <script src="java.js"></script>
+    <script src="java.js" defer></script>
 </head>
 
 <body>
@@ -33,25 +33,28 @@
             <div class="het-ruilproces-info-tekst">
                 <h1>PlantSwap Amsterdam</h1>
                 <p>Heb jij een of meerdere plantenstekjes over en zou je die graag willen ruilen voor een nieuw plantje? Meld je stekje hier aan en ruil ‘m via de app. Schrijf de Latijnse naam van je plant en eventuele verzorgingstips op een labeltje en neem ‘m mee naar de OBA Linnaeusstraat in Amsterdam.</p>
-                <button class="open-button" onclick="openForm()">Stekje aanmelden</button>
+                <button id="open-button-sign-in">Stekje aanmelden</button>
             </div>
+
+            <dialog id="form-pop-up">
+                <form class="form-sign-up" method="dialog">
+                    <h3>Stekje Aanmelden</h3>
+                    <label for="text">Naam</label>
+                    <input type="text" placeholder="Uw naam" name="name" required>  
             
-            <div class="form-popup" id="stekje-aanmelden">
-                <form action="/action_page.php" class="form-container">
+                    <label for="email">Email</label>
+                    <input type="text" placeholder="Uw e-mailadres" name="email" required>
 
-                  <label for="text"><b>Naam</b></label>
-                  <input type="text" placeholder="Uw naam" name="name" required>  
-        
-                  <label for="email"><b>Email</b></label>
-                  <input type="text" placeholder="Uw e-mailadres" name="email" required>
+                    <label>Upload je stekje</label>
+                    <input type="file" name="file" required>
 
-                  <label for="email"><b>Upload je stekje</b></label>
-                  <input type="file" name="file" required>
-              
-                  <button type="submit" class="btn">Verzenden</button>
-                  <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                        <div>
+                            <button id="send-button" type= "submit" value="default">Verzenden</button>
+                        </div>
                 </form>
-            </div>
+                    <button id="cancel-button">Sluiten</button>
+            </dialog>
+             
 
                 <img src="assets/plant-parents-holding-potted-plants-background.png" width="100%" alt="Intro Stekjesbieb">
         </section>
