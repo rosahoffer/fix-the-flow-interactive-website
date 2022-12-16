@@ -1,6 +1,6 @@
 # Buurtcampus-Oost
 
-### De user story's:
+### De user story:
 
 ***
 
