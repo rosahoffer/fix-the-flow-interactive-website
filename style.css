@@ -92,7 +92,7 @@ p{
 /* FORM STEKJE AANMELDEN */
 
 #open-button-sign-in{
-  margin-top: 50px;
+  margin-top: 5em;
   background-color: var(--secundary-color-orange);
   color: #ffffff;
   border: none;
@@ -110,6 +110,13 @@ p{
   border: 5px solid #f1f1f1;
   background-color: #ffffff;
   border-radius: 20px;
+  animation: slide-dialog 0.5s ease-out; 
+}
+
+@keyframes slide-dialog {
+  from{
+    transform: translateY(100%);
+  }
 }
 
 .form-sign-up{
@@ -122,7 +129,7 @@ p{
 }
 
 .form-sign-up [type=text]{
-  padding: 15px;
+  padding: 1.5em;
   border-radius: 5px;
   margin: 5px 0 22px 0;
   border: none;
@@ -132,7 +139,7 @@ p{
 .form-sign-up > label{
   font-size: 14px;
   text-align: left;
-  padding-bottom: 0.4em;
+  padding-bottom: 0.5em;
 }
 
 .form-sign-up > h3{
@@ -178,87 +185,25 @@ p{
   background-color: var(--primary-color-green)
 }
 
-
-/* Button used to open the contact form - fixed at the bottom of the page
-.open-button {
-  margin-top: 50px;
-  background-color: var(--secundary-color-orange);
-  color: #ffffff;
-  border: none;
-  border-radius: 20px;
-  padding: 1em;
-  font-size: 16px;
-  width: 20em;
-  cursor: pointer;
-  align-items: center;
+input[type="file"]{
+  display: none;
 }
 
-/* The popup form - hidden by default */
-/* .form-popup {
-  position: absolute;
-  border: 3px solid #f1f1f1;
-  background-color: #ffffff;
-  border-radius: 15px;
-} */
-
-/* Add styles to the form container */
-/* .form-container {
-  max-width: 400px;
-  padding: 50px;
-} */
-
-/* Full-width input fields */
-/* .form-sign-up input[type=text], .form-sign-up input[type=password]{
-  width: 100%;
-  padding: 15px;
-  border-radius: 10px;
-  margin: 5px 0 22px 0;
-  border: none;
-  background: #f1f1f1;
-} */
-
-/* When the inputs get focus, do something */
-/* .form-container input[type=text]:focus, .form-container input[type=password]:focus {
-  background-color: #ddd;
-  outline: none;
-} */
-
-/* Set a style for the submit/login button */
-/* .form-container .btn {
-  margin-top: 50px;
-  background-color: var(--primary-color-green);
-  color: #ffffff;
-  border: none;
-  border-radius: 20px;
-  padding: 1em;
-  font-size: 16px;
-  width: 20em;
+.custom-file-upload{
+  display: flex;
+  flex-direction: column;
   cursor: pointer;
-  align-items: center;
-  font-style: normal;
-  font-weight: 400;
-} */
-
-/* Add a red background color to the cancel button */
-/* .form-container .cancel {
-  background-color: var(--secundary-color-orange);
+  padding-top: 0.5em;
 }
 
-.form-container :hover.cancel {
-  background-color: var(--secundary-color-bleu);
-} */
+.custom-file-upload:hover{
+  opacity: 0.7;
+}
 
-
-
-
-
-/* FORM POP UP 2 TEST */
-
-
-
-
-
-
+dialog::backdrop{
+  background-color: black;
+  opacity: 30%;
+}
 
 /* DONEREN CONTAINER */
 
