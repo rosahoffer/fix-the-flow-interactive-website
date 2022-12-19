@@ -1,14 +1,12 @@
 # Buurtcampus-Oost
 
-### De user story's:
+### De user story:
 
 ***
 
-* _Als buurtbewoner van Amsterdam Oost wil ik kunnen zien welke stekjes momenteel in de stekjeskast zitten, zodat ik kan overwegen een stekje om te ruilen._
-
 * _Als buurtbewoner van Amsterdam Oost wil ik een stekje kunnen toevoegen met behulp van een formulier_
 
-Check hier mijn oplossing! https://rosahoffer.github.io/look-and-feel-corporate-identity/
+Check hier mijn oplossing! https://rosahoffer.github.io/fix-the-flow-interactive-website/
 
 ![device-plantswap-amsterdam](https://user-images.githubusercontent.com/112861375/205284895-eb6a31b1-81b7-4aa1-a786-b1514c8eaf4d.png)
 
