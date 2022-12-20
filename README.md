@@ -46,6 +46,6 @@ function closeForm(){
 
 ***
 
-De pagina is gemaakt met HTML en CSS.
+De pagina is gemaakt met HTML, CSS en JS.
 
 
