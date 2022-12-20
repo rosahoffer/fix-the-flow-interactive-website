@@ -8,7 +8,9 @@
 
 Check hier mijn oplossing! https://rosahoffer.github.io/fix-the-flow-interactive-website/
 
-![device-plantswap-amsterdam](https://user-images.githubusercontent.com/112861375/205284895-eb6a31b1-81b7-4aa1-a786-b1514c8eaf4d.png)
+![form-voorbeeld-readme-device-interactie-fixtheflow](https://user-images.githubusercontent.com/112861375/208641086-d92d03b6-5140-4b1b-85c1-2988b3eae789.png)
+
+
 
 
 ### Beschrijving
