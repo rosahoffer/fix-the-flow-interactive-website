@@ -15,6 +15,8 @@ Check hier mijn oplossing! https://rosahoffer.github.io/fix-the-flow-interactive
 
 ***
 
+Voor het aanmelden van een stekje moest er een formulier komen. Dit heb ik door middel gedaan van een button waar hierna het formulier van beneden komt insliden. Dit heb ik gedaan met de volgende code in JS.
+
 ```js
 // selecteer button open
 let openButton = document.querySelector("#open-button-sign-in");
