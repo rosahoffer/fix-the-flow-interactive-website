@@ -8,11 +8,14 @@
 
 Check hier mijn oplossing! https://rosahoffer.github.io/fix-the-flow-interactive-website/
 
-![form-voorbeeld-readme-device-interactie-fixtheflow](https://user-images.githubusercontent.com/112861375/208641086-d92d03b6-5140-4b1b-85c1-2988b3eae789.png)
+![test-form-voorbeeld-readme-device-interactie-fixtheflow](https://user-images.githubusercontent.com/112861375/208658002-8d6c4d48-592b-41f1-9217-1b7a1f5e21d5.png)
+
 
 ### Interactie
 
 ***
+
+Voor het aanmelden van een stekje moest er een formulier komen. Dit heb ik door middel gedaan van een button waar hierna het formulier van beneden komt insliden. Dit heb ik gedaan met de volgende code in JS.
 
 ```js
 // selecteer button open
